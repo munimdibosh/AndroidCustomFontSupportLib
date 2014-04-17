@@ -16,7 +16,7 @@ The *sample_project* is an Android application project which uses this library. 
 
 Open Source
 ===========
-This is an Open Source project. You are welcome to make any improvements you need. But before pushing any changes please make sure you generate a SSH-KEY as described `How to generate SSH-Keys`_.Then shoot me a `mail`_ with `SSH:AndroidCustomFontSupportLib` as subject line.
+This is an Open Source project. You are welcome to make any improvements you need. But before pushing any changes please make sure you generate a SSH-KEY as described `How to generate SSH-Keys`_.Then shoot me a `mail`_ with **SSH:AndroidCustomFontSupportLib** as subject line.
 
 .. GENERAL LINKS
 
