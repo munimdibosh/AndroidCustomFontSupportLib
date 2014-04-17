@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BanglaSampleProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bn_title">দম(টেক্সট ভিউতে বাংলা দেখানো) </string>
+    <string name="bn_defn">
+            <![CDATA[
+            <p><font color="#9684B4"><h2>দম(কুরবানীর মাধ্যমে কাফফারা)</h2></font>
+			হজ্জের যে কাজগুলি তরতীব বা ক্রমানুসারে করতে হয়,সেগুলো তরতীব অনুসারে না করলে দম দিতে হয়। এই কুরবানীর 
+			গোস্ত নিজে খাওয়া যাবে না,এটি মুলত সদকা স্বরুপ।
+			উল্লেখ্য,ওয়াজিব বাদ পড়লে দম দিতে হয়,ফরয বাদ পড়লে হজ্জ হবে না।
+			</p>
+			]]> 
+		</string>
+    <string name="title">Custom Font Title(Font: Articulada)</string>
+
+</resources>
