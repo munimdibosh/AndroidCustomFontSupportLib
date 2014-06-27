@@ -90,7 +90,6 @@ public class Constants {
 	 * @param text
 	 * @param size
 	 * @param banglaSupported TODO
-	 * @param fontName TODO
 	 */
 	public static SpannableString getBanglaSpannableWithSize(String text,Typeface font,float size, boolean banglaSupported)
 	{

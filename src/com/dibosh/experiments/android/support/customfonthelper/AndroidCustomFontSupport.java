@@ -56,9 +56,10 @@ public class AndroidCustomFontSupport {
 		for(Locale locale:locales)
 		{
 			
-			Constants.log("AndroidCustomFontSupport", "Locale:"+locale.getDisplayName().toLowerCase() +" Country:"+locale.getCountry().toLowerCase()+" Displayed Country:"+locale.getCountry());
+			Constants.log("AndroidCustomFontSupport", "Locale:"+locale.toString()+" Country:"+locale.getCountry().toLowerCase()+" Displayed Country:"+locale.getCountry());
 			//any possible bangla support
-			if(locale.getDisplayName().toLowerCase().contains("bengali") || locale.getDisplayCountry().toLowerCase().contains("bn") || locale.getDisplayName().toLowerCase().contains("bangla"))
+			if((locale.toString().toLowerCase().contains("bn") && (locale.toString().toLowerCase().contains("bd") || locale.toString().toLowerCase().contains("in"))) 
+					|| locale.getCountry().toLowerCase().contains("bd") || locale.getDisplayCountry().toLowerCase().contains("bd"))
 			{
 				return true;
 			}
